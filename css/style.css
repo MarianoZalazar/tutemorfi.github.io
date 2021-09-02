@@ -353,6 +353,11 @@ img, svg {
 .margin-right {
   margin-right: 8pt; }
 
+.logo{
+  height:30%;
+
+  width:30%;
+}
 html {
   font-family: "Lato", sans-serif;
   font-size: 15px;
@@ -457,8 +462,8 @@ button, .button {
       color: #fff; } }
 
 .button__accent {
-  background-color: #06d19c;
-  border-color: #06d19c;
+  background-color: #03966e;
+  border-color: #03966e;
   color: #fff; }
   @media (min-width: 992px) {
     .button__accent:hover {
@@ -734,7 +739,7 @@ select {
   position: fixed;
   z-index: 100;
   width: 100%;
-  background-color: #4e4c68;
+  background-color: #06d19c;
   transition: 0.7s; }
   .navbar--nofixed {
     position: relative;
@@ -871,8 +876,7 @@ select {
   height: 100%;
   width: 100%;
   opacity: 0.96;
-  z-index: 1;
-  background-color: #4e4c68; 
+  z-index: 1;; 
 }
 /* 
 .hero__overlay--gradient {
@@ -1055,19 +1059,19 @@ select {
   max-width: 60ch; }
 
 .cta {
-  background: linear-gradient(to right, #4e4c68, #4e4c68);
+  background: linear-gradient(to right, #06d19c, #06d19c);
   color: #fff;
   padding: 48pt 0;
   text-align: center; }
 
 .cta--reverse {
-  background: linear-gradient(to left, #4e4c68, #4e4c68); }
+  background: linear-gradient(to left, #06d19c, #06d19c); }
 
 .cta--plain {
-  background: #4e4c68; }
+  background: #06d19c; }
 
 .cta--secondary {
-  background: #4e4c68; }
+  background: #06d19c; }
 
 .cta__title {
   color: inherit; }
